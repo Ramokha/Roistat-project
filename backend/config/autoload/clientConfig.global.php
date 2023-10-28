@@ -1,0 +1,17 @@
+<?php
+
+$clientId = '48ea8c2c-9a77-4596-8361-77f9397b814c';
+$clientSecret = 'IQHwWRgVWVFFsi97wCsdkdvUM230EHPNvaBDwXgJyWgp1QtoGLw44R20Sn6M6hen';
+$redirectUrl = 'https://b98e-95-181-242-237.ngrok-free.app';
+$authorizationCode = 'def50200e3b278fb4ed1e3be316157cb24200d56d6c551d2b285ce878980022b7436d7af75ab501d605fb3b0c74122531
+                      17a8c6db229dd2ae5ef4e786cb2f4a699aa0ea7c5cbc275dc016dd4bea82d8d58eeecf5706dac9e4107ce2ee44c3fa2e3
+                      500badb004a286c4834128f12a84dd20029a8f5ec03361ab88648399371b7ebf6efc15abdd24261ad087d84f21124a0be
+                      604eb7ed35b48fbf61ba2bcaebbe7fcee5638cfa334a08f14203c06eb044520349412f81209cf428c84718a063a531e6b
+                      7cd1f08b17a1e775d584eb160e6d9ce05432b2a2da5d664c37be5562e84a6055f809bdd10a8ffea63b959789ac8ccafec
+                      65131c9ba384608576d76b9c430c2db609170885ef3ecdf08ca63c1d068547e9f018d2bcbea4e97174bfa0d6eda6c90cc
+                      6cf39d0a666286ba69681cc750c4c339706f87f9f8aaba32c62d2319d1cea222982361d61f6c174d0667bde8a1e5fd8d5
+                      a782c67d6152f195ded961339cfb2b4bc74ac3539145b00901bc54ccd1ec48e8f8ed7b89f2fbf1a6bc8eb520345a03954
+                      9df918e55b003af47dd7cf214adab409c65fc2cf839c1da23125975793356fe8dd65bbf5318c5d744aa715f3b87860a9b
+                      83e0b8cfabdb675ec6ef8b711e1f2b8884314fba53a179c123a0b3216f5172d3b611d9d669f0559811abd28f873232357
+                      acda61780747bc3048443b49d3759181eaa4bd29a400d09be627df4c0147f2c30e63efc180';
+$baseDomain = 'ranohin';

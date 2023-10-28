@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <script src="scripts/script.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <form
+      method="post"
+      action="javascript: void(0);"
+      id="login-form"
+      class="login-form"
+      autocomplete="off"
+      role="main"
+    >
+      <h1 class="a11y-hidden">Submit form for amo</h1>
+      <div>
+        <label class="label-name">
+          <input
+            type="name"
+            class="text-name"
+            name="neme"
+            placeholder="Name"
+            tabindex="1"
+            required
+          />
+          <span class="required">Name</span>
+        </label>
+      </div>
+      <div>
+        <label class="label-email">
+          <input
+            type="email"
+            class="text-email"
+            name="email"
+            placeholder="Email"
+            tabindex="1"
+            required
+          />
+          <span class="required">Email</span>
+        </label>
+      </div>
+      <div>
+        <label class="label-phone">
+          <input
+            type="text"
+            class="text-phone"
+            name="phone"
+            placeholder="phone"
+            tabindex="2"
+            required
+          />
+          <span class="required">Phone</span>
+        </label>
+      </div>
+      <div>
+        <label class="label-price">
+          <input
+            type="text"
+            class="text-price"
+            name="price"
+            placeholder="Offer your price"
+            tabindex="1"
+            required
+          />
+          <span class="required">Price</span>
+        </label>
+      </div>
+      <input class="submitButton" type="submit" value="Submit to amoCRM" />
+      <figure aria-hidden="true">
+        <div class="person-body"></div>
+        <div class="neck skin"></div>
+        <div class="head skin">
+          <div class="eyes"></div>
+          <div class="mouth"></div>
+        </div>
+        <div class="hair"></div>
+        <div class="ears"></div>
+        <div class="shirt-1"></div>
+        <div class="shirt-2"></div>
+      </figure>
+    </form>
+    <script type="text/javascript">
+      let button = document.querySelector(".submitButton");
+      button.addEventListener("click", function (event) {
+        let name = document.querySelector(".text-name").value;
+        let email = document.querySelector(".text-email").value;
+        let phone = document.querySelector(".text-phone").value;
+        let price = document.querySelector(".text-price").value;
+        console.log(name, email, phone, price);
+
+        new Request(name, email, phone, price);
+      });
+    </script>
+  </body>
+</html>
